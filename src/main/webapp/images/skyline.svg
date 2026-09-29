@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <pattern id="w" width="16" height="22" patternUnits="userSpaceOnUse">
+      <rect x="4" y="6" width="7" height="10" fill="#fde68a" opacity=".8"/>
+    </pattern>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <g id="b">
+      <rect x="0" y="150" width="90" height="150"/>
+      <rect x="100" y="90" width="70" height="210"/>
+      <rect x="180" y="170" width="100" height="130"/>
+      <rect x="290" y="50" width="80" height="250"/>
+      <rect x="380" y="130" width="110" height="170"/>
+      <rect x="500" y="80" width="70" height="220"/>
+      <rect x="580" y="160" width="120" height="140"/>
+      <rect x="710" y="60" width="90" height="240"/>
+      <rect x="810" y="120" width="100" height="180"/>
+      <rect x="920" y="70" width="80" height="230"/>
+      <rect x="1010" y="150" width="110" height="150"/>
+      <rect x="1130" y="100" width="70" height="200"/>
+    </g>
+  </defs>
+  <g fill="#6366f1" opacity=".35" transform="translate(40,-30)">
+    <rect x="20" y="120" width="120" height="180"/>
+    <rect x="200" y="80" width="90" height="220"/>
+    <rect x="360" y="140" width="130" height="160"/>
+    <rect x="560" y="70" width="100" height="230"/>
+    <rect x="740" y="130" width="120" height="170"/>
+    <rect x="930" y="90" width="90" height="210"/>
+  </g>
+  <use href="#b" fill="url(#front)"/>
+  <use href="#b" fill="url(#w)"/>
+</svg>
