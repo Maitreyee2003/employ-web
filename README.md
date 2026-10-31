@@ -4,7 +4,7 @@ EmpHub is a web-based Employee Management System developed using Java technologi
 
 ## 🚀 Features
 
-- **Admin Authentication:** Secure admin login to restrict access to management pages.
+- **Admin Authentication:** Admin login authentication to restrict access to management pages.
 - **Add Employee:** Add new employee records to the database.
 - **View Employees:** Display employee information.
 - **Update Employee:** Modify existing employee details.
@@ -43,7 +43,7 @@ Follow these steps to run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   git clone https://github.com/Maitreyee2003/employ-web
    ```
 
 2. Open the project in Eclipse or another Java IDE that supports Maven projects.
